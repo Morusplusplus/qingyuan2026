@@ -1,4 +1,4 @@
-# Projects and Research Portfolio - Qingyuan Li,2026
+# Projects and Research Portfolio
 _Introducing my research and work experience to the entire world - Qingyuan Li, 2026_
 
 ## Who am I
