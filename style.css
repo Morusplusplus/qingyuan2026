@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Scope+One&display=swap');
+:root{
+    --base-color:#dbdbdb;
+    --text-color:#000000;
+    --primary-color:#b29e72;
+    --secondary-color:#a7c3a2;
+    --color-1:#f8f8f8;
+    --color-2:#f3f7f9;
+    --color-3:#f6F3F9;
+}
+
+.scope-one-regular {
+  font-family: "Scope One", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+ /* <weight>: Use a value from 100 to 900 */
+ /* <uniquifier>: Use a unique and descriptive class name */
+.roboto-h1 {
+  font-family: Roboto, sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 900;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+
+h1,h2,h3{
+    font-family:Scope One,Poppins
+}
+
+nav{
+    margin: 1em auto 1em auto;
+    width:min(1000px,100%);
+    
+}
+
+nav ul{
+    display:flex;
+    align-items:center;
+    list-style-type:none;
+    gap:2em;
+}
+
+nav li:first-child {
+    margin-right:auto;
+    font-family:Roboto,Poppins;
+    font-weight:bold;
+}
+
+nav a{
+    text-decoration:none;
+    color: var(--text-color);
+}
+
+nav a:hover{
+    text-decoration:underline;
+}
+
+header, section {
+    margin: 1em auto;
+    width: min(75em, 100%);
+    background-color: var(--color-1);
+    padding: min(2em,15%);
+    border-radius:1em;
+}
+
+.flex-container{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    flex-wrap:wrap;
+    gap:3em;
+    margin: 3em auto 3em auto;
+}
+
+header img {
+    max-width:100%;
+    border-radius:10em;
+    object-fit:cover;
+    object-position:bottom;
+}
+
+.text-container {
+    flex: 0 1 34em;
+    /* 0:no expansion   1:can shrink   34em: base size*/
+
+}
+
+h1{
+    font-size:2.5rem;
+}
+
+.text-container p{
+    margin: .75em 0 1em 0;
+    font-size:1rem;
+    font-family: Inter,Poppins;
+    font-weight: 300;
+}
+
+.cta-button{
+    display:inline-block;
+    text-decoration:none;
+    color:white;
+    background-color:var(--primary-color);
+    padding:.75em 1.25em;
+    border-radius: .5em;
+    font-weight:600;
+    
+}
+
+.secondary{
+    background-color: var(--secondary-color);
+}
