@@ -7,6 +7,7 @@
     --color-1:#f8f8f8;
     --color-2:#f3f7f9;
     --color-3:#f6F3F9;
+    --color-4:#f8f8f8;
 }
 
 .scope-one-regular {
@@ -82,6 +83,17 @@ header, section {
     
 }
 
+.flex-container-small{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    flex-wrap:wrap;
+    gap:1em;
+    /* max-width:40%; */
+}
+
+
+
 .first-card{
     margin: 3em auto 3em auto;
 }
@@ -104,10 +116,29 @@ header img {
     margin: 1em 1em 1em 1em;
 }
 
+.mid-img{
+    max-width:65%;
+    border-radius:1em;
+    margin: 1em 1em 1em 1em;
+}
+
+
+.short-img{
+    max-width:40%;
+    border-radius:1em;
+    margin: 1em 1em 1em 1em;
+}
 
 
 .text-container {
-    flex: 0 1 34em;
+    flex: 0 1 44em;
+    /* 0:no expansion   1:can shrink   34em: base size*/
+
+}
+
+.text-container2 {
+    flex: 0 1 44em;
+    /* max-width:40%; */
     /* 0:no expansion   1:can shrink   34em: base size*/
 
 }
@@ -211,4 +242,8 @@ footer a{
 
 footer a:hover{
     text-decoration:underline;
+}
+
+section#paper-publications {
+    background-color: var(--color-4);
 }
