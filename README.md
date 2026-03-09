@@ -1,5 +1,5 @@
 # Projects and Research Portfolio
-_Introducing my research and work experience to the entire world - Qingyuan Li, 2026_
+_Introducing my research and work experience - Qingyuan Li, 2026_
 
 ## Who am I
 - **Data Analyst and Visualization Expert**: Data ETL, insight analysis, pipeline design and implementation. Building impressive and inspiring dashboards for business and academic usage. Tools: python, SQL, streamlit, d3.js, ArcGIS, Tableau, etc.. 
